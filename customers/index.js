@@ -2,8 +2,8 @@ const app = require("./app")
 const database = require("./database");
 
 database.connect().then(() => {
-  app.listen(4001, () => {
-    console.log("Book services running...");
+  app.listen(4002, () => {
+    console.log("Customer services running...");
   });
 });
 
