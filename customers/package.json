@@ -1,0 +1,20 @@
+{
+  "name": "customers",
+  "version": "1.0.0",
+  "description": "customer services",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "debug": "node --inspect index.js",
+    "test": "NODE_ENV=test mocha --no-deprecation --timeout 6000 --recursive --exit",
+    "test:debug": "NODE_ENV=test mocha --no-deprecation --timeout 6000 --inspect-brk --recursive --exit"
+  },
+  "author": "Nguyen Van Tuan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.12"
+  }
+}
