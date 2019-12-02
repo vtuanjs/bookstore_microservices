@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "NODE_ENV=production node index.js",
     "debug": "node --inspect index.js",
     "test": "NODE_ENV=test mocha --no-deprecation --timeout 6000 --recursive --exit",
     "test:debug": "NODE_ENV=test mocha --no-deprecation --timeout 6000 --inspect-brk --recursive --exit"
